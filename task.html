@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>タスク管理システム</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2rem;
+    }
+    input {
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+    button {
+      margin-left: 0.5rem;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Vue アプリケーションのマウント先 -->
+  <div id="app"></div>
+
+  <!-- Vue 3 の CDN を利用 -->
+  <script src="https://unpkg.com/vue@3"></script>
+  <script type="module">
+    // Vue 3 の Composition API を利用してアプリケーションを構築
+    const { createApp, ref } = Vue;
+
+    createApp({
+      setup() {
+        // 新しいタスクの入力内容を保持する変数
+        const newTask = ref('');
+        // タスク一覧を保持する配列
+        const tasks = ref([]);
+
+        // タスクを追加する関数
+        const addTask = () => {
+          // 入力が空文字でなければ追加
+          if (newTask.value.trim() !== '') {
+            tasks.value.push(newTask.value);
+            // タスク追加後、入力欄をクリア
+            newTask.value = '';
+          }
+        };
+
+        // 指定したインデックスのタスクを削除する関数
+        const removeTask = (index) => {
+          tasks.value.splice(index, 1);
+        };
+
+        // 必要に応じて追加のボタンや機能をここに実装できます
+
+        // テンプレートで利用するデータ・関数を返す
+        return {
+          newTask,
+          tasks,
+          addTask,
+          removeTask,
+        };
+      },
+      // テンプレート部分（HTML）
+      template: `
+        <div>
+          <h1>タスク管理システム</h1>
+          <div>
+            <input v-model="newTask" placeholder="新しいタスクを入力" />
+            <button @click="addTask">タスクを追加</button>
+          </div>
+          <ul>
+            <li v-for="(task, index) in tasks" :key="index">
+              {{ task }}
+              <button @click="removeTask(index)">削除</button>
+            </li>
+          </ul>
+        </div>
+      `
+    }).mount('#app');
+  </script>
+</body>
+</html>
