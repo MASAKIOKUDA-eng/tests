@@ -7,10 +7,10 @@
         <mxCell id="Oxmt3GapHwD06_U0Ut4d-14" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=default;fillColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1" parent="1">
           <mxGeometry x="70" y="80" width="700" height="700" as="geometry" />
         </mxCell>
-        <mxCell id="Oxmt3GapHwD06_U0Ut4d-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Oxmt3GapHwD06_U0Ut4d-3" target="Oxmt3GapHwD06_U0Ut4d-8">
+        <mxCell id="Oxmt3GapHwD06_U0Ut4d-16" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);" edge="1" parent="1" source="Oxmt3GapHwD06_U0Ut4d-3" target="Oxmt3GapHwD06_U0Ut4d-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="290" as="sourcePoint" />
-            <mxPoint x="310" y="240" as="targetPoint" />
+            <mxPoint x="230" y="280" as="sourcePoint" />
+            <mxPoint x="280" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Oxmt3GapHwD06_U0Ut4d-3" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
@@ -24,6 +24,9 @@
         </mxCell>
         <mxCell id="Oxmt3GapHwD06_U0Ut4d-11" value="Amazon Cloudfront" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.cloudfront;" vertex="1" parent="1">
           <mxGeometry x="480" y="200" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Oxmt3GapHwD06_U0Ut4d-18" value="Region" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#879196;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#879196;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="170" width="440" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
