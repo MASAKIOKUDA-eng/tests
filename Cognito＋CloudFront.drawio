@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
   <diagram name="ページ1" id="pR4j48zWqhHXwIKDJu5_">
-    <mxGraphModel>
+    <mxGraphModel dx="788" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Oxmt3GapHwD06_U0Ut4d-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Oxmt3GapHwD06_U0Ut4d-3" target="Oxmt3GapHwD06_U0Ut4d-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="290" as="sourcePoint" />
+            <mxPoint x="310" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Oxmt3GapHwD06_U0Ut4d-3" value="" style="shape=mxgraph.cisco.computers_and_peripherals.pc;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="210" width="78" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Oxmt3GapHwD06_U0Ut4d-5" value="" style="rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=1 1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="480" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Oxmt3GapHwD06_U0Ut4d-8" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="630" y="200" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Oxmt3GapHwD06_U0Ut4d-10" value="Amazon Cognito" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.cognito;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Oxmt3GapHwD06_U0Ut4d-11" value="Amazon Cloudfront" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.cloudfront;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="80" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
